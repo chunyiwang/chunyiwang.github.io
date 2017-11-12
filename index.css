@@ -38,3 +38,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+#myNavbar select {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  #myNavbar ul     { display: none; }
+  #myNavbar select { display: inline-block; }
+}
