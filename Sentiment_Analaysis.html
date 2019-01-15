@@ -356,89 +356,350 @@ div.tocify {
 <thead>
 <tr class="header">
 <th align="left">Course</th>
-<th align="right">polarity</th>
+<th align="right">total.sentences</th>
+<th align="right">total.words</th>
+<th align="right">ave.polarity</th>
+<th align="right">sd.polarity</th>
+<th align="right">stan.mean.polarity</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">CO 487</td>
-<td align="right">3.219938</td>
+<td align="left">PSCI 421</td>
+<td align="right">1</td>
+<td align="right">23</td>
+<td align="right">1.6681153</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+</tr>
+<tr class="even">
+<td align="left">HSG 611</td>
+<td align="right">1</td>
+<td align="right">14</td>
+<td align="right">1.4966630</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">PHIL 315</td>
+<td align="right">3</td>
+<td align="right">15</td>
+<td align="right">1.4317348</td>
+<td align="right">0.9133471</td>
+<td align="right">1.5675692</td>
+</tr>
+<tr class="even">
+<td align="left">ECE 664</td>
+<td align="right">3</td>
+<td align="right">20</td>
+<td align="right">1.3123735</td>
+<td align="right">0.7180259</td>
+<td align="right">1.8277523</td>
+</tr>
+<tr class="odd">
+<td align="left">FINE 221</td>
+<td align="right">2</td>
+<td align="right">6</td>
+<td align="right">1.2535534</td>
+<td align="right">0.7727922</td>
+<td align="right">1.6221093</td>
+</tr>
+<tr class="even">
+<td align="left">GER 622</td>
+<td align="right">2</td>
+<td align="right">32</td>
+<td align="right">1.1852191</td>
+<td align="right">0.7428196</td>
+<td align="right">1.5955678</td>
+</tr>
+<tr class="odd">
+<td align="left">CHE 610</td>
+<td align="right">1</td>
+<td align="right">11</td>
+<td align="right">1.1457431</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+</tr>
+<tr class="even">
+<td align="left">ARCH 692</td>
+<td align="right">2</td>
+<td align="right">6</td>
+<td align="right">1.1363961</td>
+<td align="right">0.1928932</td>
+<td align="right">5.8913222</td>
+</tr>
+<tr class="odd">
+<td align="left">MUSIC 216</td>
+<td align="right">2</td>
+<td align="right">23</td>
+<td align="right">1.1259778</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+</tr>
+<tr class="even">
+<td align="left">INTEG 375</td>
+<td align="right">1</td>
+<td align="right">25</td>
+<td align="right">1.1200000</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">NE 353</td>
+<td align="right">2</td>
+<td align="right">27</td>
+<td align="right">1.0774751</td>
+<td align="right">1.7649889</td>
+<td align="right">0.6104713</td>
+</tr>
+<tr class="even">
+<td align="left">GEOG 402</td>
+<td align="right">3</td>
+<td align="right">32</td>
+<td align="right">1.0740163</td>
+<td align="right">0.3236990</td>
+<td align="right">3.3179476</td>
+</tr>
+<tr class="odd">
+<td align="left">REC 333</td>
+<td align="right">1</td>
+<td align="right">7</td>
+<td align="right">1.0583005</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+</tr>
+<tr class="even">
+<td align="left">RS 213</td>
+<td align="right">1</td>
+<td align="right">12</td>
+<td align="right">1.0392305</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">PSCI 254</td>
+<td align="right">2</td>
+<td align="right">11</td>
+<td align="right">1.0333333</td>
+<td align="right">1.4613540</td>
+<td align="right">0.7071068</td>
+</tr>
+<tr class="even">
+<td align="left">DRAMA 396</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">1.0285913</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">PHIL 271</td>
+<td align="right">3</td>
+<td align="right">14</td>
+<td align="right">1.0155418</td>
+<td align="right">0.2049693</td>
+<td align="right">4.9546037</td>
 </tr>
 <tr class="even">
 <td align="left">OPTOM 272</td>
-<td align="right">2.982404</td>
+<td align="right">4</td>
+<td align="right">43</td>
+<td align="right">0.9878539</td>
+<td align="right">1.3586152</td>
+<td align="right">0.7271035</td>
 </tr>
 <tr class="odd">
-<td align="left">PHIL 350</td>
-<td align="right">2.846050</td>
+<td align="left">PLAN 477</td>
+<td align="right">3</td>
+<td align="right">28</td>
+<td align="right">0.9427204</td>
+<td align="right">0.8440212</td>
+<td align="right">1.1169392</td>
 </tr>
 <tr class="even">
-<td align="left">CO 454</td>
-<td align="right">2.685268</td>
+<td align="left">CIVE 671</td>
+<td align="right">1</td>
+<td align="right">5</td>
+<td align="right">0.8944272</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="top-20-polarity-score-by-course---more-than-or-equal-to-10-sentences" class="section level2">
+<h2>Top 20 polarity score by course - More than or equal to 10 Sentences</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Course</th>
+<th align="right">total.sentences</th>
+<th align="right">total.words</th>
+<th align="right">ave.polarity</th>
+<th align="right">sd.polarity</th>
+<th align="right">stan.mean.polarity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">FR 255</td>
+<td align="right">11</td>
+<td align="right">98</td>
+<td align="right">0.7371070</td>
+<td align="right">0.7146694</td>
+<td align="right">1.0313958</td>
+</tr>
+<tr class="even">
+<td align="left">ENGL 306F</td>
+<td align="right">18</td>
+<td align="right">157</td>
+<td align="right">0.5661550</td>
+<td align="right">0.5235555</td>
+<td align="right">1.0813658</td>
 </tr>
 <tr class="odd">
-<td align="left">FR 152</td>
-<td align="right">2.662561</td>
+<td align="left">WS 102</td>
+<td align="right">10</td>
+<td align="right">104</td>
+<td align="right">0.5499328</td>
+<td align="right">0.5416419</td>
+<td align="right">1.0153070</td>
 </tr>
 <tr class="even">
-<td align="left">MATH 119</td>
-<td align="right">2.640000</td>
+<td align="left">HIST 236</td>
+<td align="right">11</td>
+<td align="right">100</td>
+<td align="right">0.5466901</td>
+<td align="right">0.3203277</td>
+<td align="right">1.7066585</td>
 </tr>
 <tr class="odd">
-<td align="left">PSYCH 257</td>
-<td align="right">2.565708</td>
+<td align="left">HIST 311</td>
+<td align="right">11</td>
+<td align="right">105</td>
+<td align="right">0.5375562</td>
+<td align="right">0.5527802</td>
+<td align="right">0.9724593</td>
 </tr>
 <tr class="even">
-<td align="left">BIOL 484</td>
-<td align="right">2.482606</td>
+<td align="left">RS 210</td>
+<td align="right">12</td>
+<td align="right">125</td>
+<td align="right">0.5176459</td>
+<td align="right">0.3508977</td>
+<td align="right">1.4752043</td>
 </tr>
 <tr class="odd">
-<td align="left">MTE 320</td>
-<td align="right">2.466577</td>
+<td align="left">ECE 458</td>
+<td align="right">15</td>
+<td align="right">100</td>
+<td align="right">0.5171196</td>
+<td align="right">0.4177890</td>
+<td align="right">1.2377532</td>
 </tr>
 <tr class="even">
-<td align="left">ENVS 178</td>
-<td align="right">2.418973</td>
+<td align="left">FR 203</td>
+<td align="right">18</td>
+<td align="right">131</td>
+<td align="right">0.5081688</td>
+<td align="right">0.7563486</td>
+<td align="right">0.6718712</td>
 </tr>
 <tr class="odd">
-<td align="left">CO 642</td>
-<td align="right">2.333333</td>
+<td align="left">GBDA 103</td>
+<td align="right">15</td>
+<td align="right">213</td>
+<td align="right">0.5076936</td>
+<td align="right">0.3786231</td>
+<td align="right">1.3408945</td>
 </tr>
 <tr class="even">
-<td align="left">MATH 118</td>
-<td align="right">2.325511</td>
+<td align="left">PHYS 364</td>
+<td align="right">14</td>
+<td align="right">229</td>
+<td align="right">0.5063491</td>
+<td align="right">0.4250738</td>
+<td align="right">1.1912029</td>
 </tr>
 <tr class="odd">
-<td align="left">PACS 202</td>
-<td align="right">2.325511</td>
+<td align="left">REC 356</td>
+<td align="right">12</td>
+<td align="right">60</td>
+<td align="right">0.4973447</td>
+<td align="right">0.6384837</td>
+<td align="right">0.7789466</td>
 </tr>
 <tr class="even">
-<td align="left">NE 353</td>
-<td align="right">2.325511</td>
+<td align="left">FR 276</td>
+<td align="right">12</td>
+<td align="right">153</td>
+<td align="right">0.4968577</td>
+<td align="right">0.3233601</td>
+<td align="right">1.5365459</td>
 </tr>
 <tr class="odd">
-<td align="left">PLAN 414</td>
-<td align="right">2.325511</td>
+<td align="left">ME 561</td>
+<td align="right">10</td>
+<td align="right">116</td>
+<td align="right">0.4914648</td>
+<td align="right">0.4397923</td>
+<td align="right">1.1174927</td>
 </tr>
 <tr class="even">
-<td align="left">PHIL 315</td>
-<td align="right">2.325511</td>
+<td align="left">GER 201</td>
+<td align="right">16</td>
+<td align="right">169</td>
+<td align="right">0.4776297</td>
+<td align="right">0.5910653</td>
+<td align="right">0.8080827</td>
 </tr>
 <tr class="odd">
-<td align="left">CHEM 224L</td>
-<td align="right">2.323790</td>
+<td align="left">ENGL 108H</td>
+<td align="right">29</td>
+<td align="right">290</td>
+<td align="right">0.4728206</td>
+<td align="right">0.2945853</td>
+<td align="right">1.6050380</td>
 </tr>
 <tr class="even">
-<td align="left">ENGL 108M</td>
-<td align="right">2.218801</td>
+<td align="left">PHIL 110B</td>
+<td align="right">31</td>
+<td align="right">401</td>
+<td align="right">0.4639740</td>
+<td align="right">0.3636646</td>
+<td align="right">1.2758292</td>
 </tr>
 <tr class="odd">
-<td align="left">PHIL 250A</td>
-<td align="right">2.213594</td>
+<td align="left">CO 480</td>
+<td align="right">12</td>
+<td align="right">159</td>
+<td align="right">0.4614976</td>
+<td align="right">0.7098289</td>
+<td align="right">0.6501533</td>
 </tr>
 <tr class="even">
-<td align="left">CLAS 100</td>
-<td align="right">2.204541</td>
+<td align="left">ENGL 292</td>
+<td align="right">16</td>
+<td align="right">198</td>
+<td align="right">0.4600144</td>
+<td align="right">0.4858813</td>
+<td align="right">0.9467629</td>
+</tr>
+<tr class="odd">
+<td align="left">EARTH 231</td>
+<td align="right">10</td>
+<td align="right">111</td>
+<td align="right">0.4588760</td>
+<td align="right">0.7202678</td>
+<td align="right">0.6370908</td>
+</tr>
+<tr class="even">
+<td align="left">SYDE 556</td>
+<td align="right">12</td>
+<td align="right">149</td>
+<td align="right">0.4546630</td>
+<td align="right">0.5674983</td>
+<td align="right">0.8011707</td>
 </tr>
 </tbody>
 </table>
@@ -449,89 +710,350 @@ div.tocify {
 <thead>
 <tr class="header">
 <th align="left">Course</th>
-<th align="right">polarity</th>
+<th align="right">total.sentences</th>
+<th align="right">total.words</th>
+<th align="right">ave.polarity</th>
+<th align="right">sd.polarity</th>
+<th align="right">stan.mean.polarity</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">AFM 341</td>
-<td align="right">-1.838478</td>
+<td align="left">PHARM 126</td>
+<td align="right">1</td>
+<td align="right">5</td>
+<td align="right">-0.8944272</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
 </tr>
 <tr class="even">
-<td align="left">ME 362</td>
-<td align="right">-1.823509</td>
+<td align="left">RS 370</td>
+<td align="right">1</td>
+<td align="right">6</td>
+<td align="right">-0.8164966</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
 </tr>
 <tr class="odd">
-<td align="left">ME 423</td>
-<td align="right">-1.800000</td>
+<td align="left">BIOL 465</td>
+<td align="right">5</td>
+<td align="right">19</td>
+<td align="right">-0.6447832</td>
+<td align="right">0.4525072</td>
+<td align="right">-1.4249126</td>
 </tr>
 <tr class="even">
-<td align="left">REC 220</td>
-<td align="right">-1.765045</td>
+<td align="left">HIST 278</td>
+<td align="right">2</td>
+<td align="right">43</td>
+<td align="right">-0.6420308</td>
+<td align="right">0.0348404</td>
+<td align="right">-18.4277696</td>
 </tr>
 <tr class="odd">
-<td align="left">PHIL 100</td>
-<td align="right">-1.732051</td>
+<td align="left">SE 362</td>
+<td align="right">2</td>
+<td align="right">12</td>
+<td align="right">-0.6123724</td>
+<td align="right">0.2886751</td>
+<td align="right">-2.1213203</td>
 </tr>
 <tr class="even">
-<td align="left">PHYS 441B</td>
-<td align="right">-1.699412</td>
+<td align="left">CIVE 583</td>
+<td align="right">1</td>
+<td align="right">11</td>
+<td align="right">-0.6030227</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
 </tr>
 <tr class="odd">
-<td align="left">ECON 335</td>
-<td align="right">-1.626346</td>
+<td align="left">MTHEL 305A</td>
+<td align="right">1</td>
+<td align="right">12</td>
+<td align="right">-0.5773503</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
 </tr>
 <tr class="even">
-<td align="left">LS 101</td>
-<td align="right">-1.609969</td>
+<td align="left">NE 307</td>
+<td align="right">1</td>
+<td align="right">3</td>
+<td align="right">-0.5773503</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
 </tr>
 <tr class="odd">
-<td align="left">CS 350</td>
-<td align="right">-1.596980</td>
+<td align="left">ENGL 710</td>
+<td align="right">2</td>
+<td align="right">8</td>
+<td align="right">-0.5576775</td>
+<td align="right">0.2113249</td>
+<td align="right">-2.6389584</td>
 </tr>
 <tr class="even">
-<td align="left">ECE 106</td>
-<td align="right">-1.503721</td>
+<td align="left">GEOG 221</td>
+<td align="right">7</td>
+<td align="right">56</td>
+<td align="right">-0.5417397</td>
+<td align="right">0.4259272</td>
+<td align="right">-1.2719070</td>
 </tr>
 <tr class="odd">
-<td align="left">ECE 250</td>
-<td align="right">-1.501111</td>
+<td align="left">FINE 219</td>
+<td align="right">3</td>
+<td align="right">11</td>
+<td align="right">-0.5202201</td>
+<td align="right">0.2642977</td>
+<td align="right">-1.9683107</td>
 </tr>
 <tr class="even">
-<td align="left">ENGL 247</td>
-<td align="right">-1.501111</td>
+<td align="left">ISS 420R</td>
+<td align="right">2</td>
+<td align="right">20</td>
+<td align="right">-0.5000000</td>
+<td align="right">0.7071068</td>
+<td align="right">-0.7071068</td>
 </tr>
 <tr class="odd">
-<td align="left">ENVE 231</td>
-<td align="right">-1.500000</td>
+<td align="left">ME 735</td>
+<td align="right">7</td>
+<td align="right">30</td>
+<td align="right">-0.4959798</td>
+<td align="right">0.5338586</td>
+<td align="right">-0.9290471</td>
 </tr>
 <tr class="even">
-<td align="left">SE 141</td>
-<td align="right">-1.500000</td>
+<td align="left">PHARM 127</td>
+<td align="right">2</td>
+<td align="right">9</td>
+<td align="right">-0.4736068</td>
+<td align="right">0.0373256</td>
+<td align="right">-12.6885164</td>
 </tr>
 <tr class="odd">
-<td align="left">ME 354</td>
-<td align="right">-1.484924</td>
+<td align="left">HLTH 442</td>
+<td align="right">2</td>
+<td align="right">14</td>
+<td align="right">-0.4472136</td>
+<td align="right">0.6324555</td>
+<td align="right">-0.7071068</td>
 </tr>
 <tr class="even">
-<td align="left">CS 456</td>
-<td align="right">-1.469694</td>
+<td align="left">SOC 232</td>
+<td align="right">3</td>
+<td align="right">18</td>
+<td align="right">-0.4472136</td>
+<td align="right">0.4472136</td>
+<td align="right">-1.0000000</td>
 </tr>
 <tr class="odd">
-<td align="left">ME 230</td>
-<td align="right">-1.469694</td>
+<td align="left">GERON 220</td>
+<td align="right">8</td>
+<td align="right">55</td>
+<td align="right">-0.4448442</td>
+<td align="right">0.3549202</td>
+<td align="right">-1.2533639</td>
 </tr>
 <tr class="even">
-<td align="left">AFM 351</td>
-<td align="right">-1.469694</td>
+<td align="left">SPAN 390</td>
+<td align="right">2</td>
+<td align="right">15</td>
+<td align="right">-0.4330127</td>
+<td align="right">0.2041241</td>
+<td align="right">-2.1213203</td>
+</tr>
+<tr class="odd">
+<td align="left">CHINA 202R</td>
+<td align="right">1</td>
+<td align="right">6</td>
+<td align="right">-0.4082483</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+</tr>
+<tr class="even">
+<td align="left">RS 282</td>
+<td align="right">5</td>
+<td align="right">59</td>
+<td align="right">-0.4077288</td>
+<td align="right">0.3885114</td>
+<td align="right">-1.0494641</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="bottom-20-polarity-score-by-course---more-than-or-equal-to-10-sentences" class="section level2">
+<h2>Bottom 20 polarity score by course - More than or equal to 10 Sentences</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Course</th>
+<th align="right">total.sentences</th>
+<th align="right">total.words</th>
+<th align="right">ave.polarity</th>
+<th align="right">sd.polarity</th>
+<th align="right">stan.mean.polarity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">PSCI 314</td>
+<td align="right">12</td>
+<td align="right">29</td>
+<td align="right">-0.2913186</td>
+<td align="right">0.4976502</td>
+<td align="right">-0.5853884</td>
+</tr>
+<tr class="even">
+<td align="left">SYDE 312</td>
+<td align="right">18</td>
+<td align="right">215</td>
+<td align="right">-0.2412424</td>
+<td align="right">0.3278067</td>
+<td align="right">-0.7359288</td>
+</tr>
+<tr class="odd">
+<td align="left">CIVE 280</td>
+<td align="right">20</td>
+<td align="right">254</td>
+<td align="right">-0.2217420</td>
+<td align="right">0.3193975</td>
+<td align="right">-0.6942510</td>
+</tr>
+<tr class="even">
+<td align="left">CS 476</td>
+<td align="right">11</td>
+<td align="right">195</td>
+<td align="right">-0.2113194</td>
+<td align="right">0.4573237</td>
+<td align="right">-0.4620784</td>
+</tr>
+<tr class="odd">
+<td align="left">AFM 431</td>
+<td align="right">11</td>
+<td align="right">84</td>
+<td align="right">-0.1876164</td>
+<td align="right">0.2751128</td>
+<td align="right">-0.6819617</td>
+</tr>
+<tr class="even">
+<td align="left">ERS 211</td>
+<td align="right">10</td>
+<td align="right">109</td>
+<td align="right">-0.1847200</td>
+<td align="right">0.5188824</td>
+<td align="right">-0.3559958</td>
+</tr>
+<tr class="odd">
+<td align="left">GEOG 309</td>
+<td align="right">20</td>
+<td align="right">158</td>
+<td align="right">-0.1662358</td>
+<td align="right">0.4236947</td>
+<td align="right">-0.3923481</td>
+</tr>
+<tr class="even">
+<td align="left">ME 321</td>
+<td align="right">30</td>
+<td align="right">300</td>
+<td align="right">-0.1572864</td>
+<td align="right">0.3980117</td>
+<td align="right">-0.3951805</td>
 </tr>
 <tr class="odd">
 <td align="left">PHYS 380</td>
-<td align="right">-1.469694</td>
+<td align="right">12</td>
+<td align="right">138</td>
+<td align="right">-0.1478390</td>
+<td align="right">0.6727364</td>
+<td align="right">-0.2197577</td>
 </tr>
 <tr class="even">
-<td align="left">CIVE 306</td>
-<td align="right">-1.469694</td>
+<td align="left">HIST 235</td>
+<td align="right">13</td>
+<td align="right">119</td>
+<td align="right">-0.1465909</td>
+<td align="right">0.3107437</td>
+<td align="right">-0.4717423</td>
+</tr>
+<tr class="odd">
+<td align="left">PSCI 292</td>
+<td align="right">13</td>
+<td align="right">117</td>
+<td align="right">-0.1457842</td>
+<td align="right">0.6204371</td>
+<td align="right">-0.2349702</td>
+</tr>
+<tr class="even">
+<td align="left">ECE 362</td>
+<td align="right">13</td>
+<td align="right">79</td>
+<td align="right">-0.1451343</td>
+<td align="right">0.4638488</td>
+<td align="right">-0.3128914</td>
+</tr>
+<tr class="odd">
+<td align="left">REC 252</td>
+<td align="right">14</td>
+<td align="right">240</td>
+<td align="right">-0.1441280</td>
+<td align="right">0.3364969</td>
+<td align="right">-0.4283190</td>
+</tr>
+<tr class="even">
+<td align="left">NE 115</td>
+<td align="right">14</td>
+<td align="right">189</td>
+<td align="right">-0.1418441</td>
+<td align="right">0.4382456</td>
+<td align="right">-0.3236635</td>
+</tr>
+<tr class="odd">
+<td align="left">AFM 241</td>
+<td align="right">27</td>
+<td align="right">302</td>
+<td align="right">-0.1346134</td>
+<td align="right">0.3978457</td>
+<td align="right">-0.3383557</td>
+</tr>
+<tr class="even">
+<td align="left">FR 291</td>
+<td align="right">13</td>
+<td align="right">91</td>
+<td align="right">-0.1340576</td>
+<td align="right">0.2896978</td>
+<td align="right">-0.4627498</td>
+</tr>
+<tr class="odd">
+<td align="left">SPAN 228</td>
+<td align="right">19</td>
+<td align="right">236</td>
+<td align="right">-0.1181006</td>
+<td align="right">0.3294554</td>
+<td align="right">-0.3584721</td>
+</tr>
+<tr class="even">
+<td align="left">SOC 201</td>
+<td align="right">12</td>
+<td align="right">186</td>
+<td align="right">-0.1162516</td>
+<td align="right">0.2515282</td>
+<td align="right">-0.4621814</td>
+</tr>
+<tr class="odd">
+<td align="left">ECE 155</td>
+<td align="right">36</td>
+<td align="right">439</td>
+<td align="right">-0.1160676</td>
+<td align="right">0.3268552</td>
+<td align="right">-0.3551040</td>
+</tr>
+<tr class="even">
+<td align="left">AFM 482</td>
+<td align="right">39</td>
+<td align="right">487</td>
+<td align="right">-0.1140996</td>
+<td align="right">0.2469978</td>
+<td align="right">-0.4619457</td>
 </tr>
 </tbody>
 </table>
